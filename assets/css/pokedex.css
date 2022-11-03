@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    gap: 0.5rem;
 }
 
 .normal {
@@ -84,6 +85,10 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    cursor: pointer;
+    justify-self: center;
+    width: 100%;
+    max-width: 175px;
 }
 
 .pokemon .number {
@@ -123,7 +128,8 @@
 }
 
 .pokemon .detail img {
-    max-width: 100%;
+    width: 100%;
+    max-width: 80px;
     height: 70px;
 }
 
@@ -144,6 +150,7 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 380px) {
